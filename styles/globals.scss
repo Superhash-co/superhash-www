@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  @apply transition-all duration-300 text-white antialiased
+}
+h2{
+  @apply font-black italic text-[26px] leading-[34px] text-center font-display
+  md:text-[38px] md:leading-[46px]
+}
+h3{
+  @apply font-bold italic text-[20px] leading-[28px] text-center font-display
+  md:text-[24px] md:leading-[32px]
+}
+
+p{
+  @apply text-[16px] leading-[26px] tracking-[0.01em]
+}
+
+.p2{
+  @apply text-[14px] leading-[24px] tracking-[0.01em]
+}

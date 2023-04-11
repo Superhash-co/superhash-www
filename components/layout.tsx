@@ -71,7 +71,8 @@ export default function Layout(props: any) {
             <Head>
                 <meta name="description" content="Superhash website"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <link rel="icon" href="/favicon.ico"/>
+                <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+                <link rel="icon" type="image/png" href="/favicon.png"/>
                 <meta name="theme-color" content={context.activePageProps?.bg}/>
                 <style>
                     {`

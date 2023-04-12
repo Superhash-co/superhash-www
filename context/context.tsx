@@ -2,6 +2,8 @@ import React, {useEffect, useState} from "react";
 import {useRouter} from "next/router";
 import {Vector2} from "three";
 
+const assetPrefix = process.env.NODE_ENV === 'production' ? '/superhash-www' : ''
+
 export interface MenuItemProps {
     label: string
     link: string
@@ -70,6 +72,7 @@ const useValue = () => {
         isPageOpen,
         setIsPageOpen,
         navItems,
+        assetPrefix,
         prev,
         setPrev,
         activePageProps,
@@ -101,7 +104,7 @@ function Context({ children }:any) {
 
 
     return (
-        <AppContext.Provider value={{hoveredMenuItem, setHoveredMenuItem, hover, setHover, isPageOpen, setIsPageOpen, navItems, prev, setPrev, activePageProps, setActivePageProps}}>
+        <AppContext.Provider value={{hoveredMenuItem, setHoveredMenuItem, hover, setHover, isPageOpen, setIsPageOpen, navItems, assetPrefix, prev, setPrev, activePageProps, setActivePageProps}}>
             {children}
         </AppContext.Provider>
     );

@@ -9,10 +9,9 @@ import {AppContext} from "../context/context"
 import {useRouter} from "next/router"
 import HoverControls from "./HoverControls"
 
-
 export default function Scene() {
-    const {nodes, materials} = useSpline('/scene.splinecode')
     const context = useContext(AppContext)
+    const {nodes, materials} = useSpline(context.assetPrefix + '/scene.splinecode')
     const router = useRouter()
 
     let {rotation, scale, cameraZ} = useSpring({

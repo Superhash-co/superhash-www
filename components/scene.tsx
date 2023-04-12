@@ -11,7 +11,7 @@ import HoverControls from "./HoverControls"
 
 
 export default function Scene() {
-    const {nodes, materials} = useSpline('/static/scene.splinecode')
+    const {nodes, materials} = useSpline('/scene.splinecode')
     const context = useContext(AppContext)
     const router = useRouter()
 

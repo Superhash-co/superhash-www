@@ -37,7 +37,7 @@ export default function About() {
                     contributes to blockchain open-source projects such as Truffle, Loom, and OpenZeppelin.
                 </p>
                 <p>
-                    Superhash's CTO, Istvan Banfi has over 20 years of experience in the financial industry, including leading
+                    Superhash CTO Istvan Banfi has over 20 years of experience in the financial industry, including leading
                     architecture design teams for major Eastern European banks. He has an extensive SRE / DevOps experience
                     related to cloud infrastructure providers as well as permissioned DLT architectures. He has a track record
                     of successfully growing and leading large developer teams of 100+ members. Istvan is an avid traveler.
@@ -46,8 +46,8 @@ export default function About() {
                 <p>
                     Our CEO, Konrad Kiss is a seasoned entrepreneur with expertise in managing remote teams and establishing
                     software development service companies. He has been involved in the video game industry for decades
-                    and has several video game and fintech projects under his belt. He's enthusiastic about the future of
-                    health and education. He's the founder of a primary school that teaches children pragmatic skills.
+                    and has several video game and fintech projects under his belt. He is enthusiastic about the future of
+                    health and education. He is the founder of a primary school that teaches children pragmatic skills.
                 </p>
             </div>
         </>

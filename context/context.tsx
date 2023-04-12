@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import {useRouter} from "next/router";
 import {Vector2} from "three";
 
-const assetPrefix = process.env.NODE_ENV === 'production' ? '/superhash-www' : ''
+const assetPrefix = '' // process.env.NODE_ENV === 'production' ? '/superhash-www' : ''
 
 export interface MenuItemProps {
     label: string

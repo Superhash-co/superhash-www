@@ -134,7 +134,7 @@ export default function Layout(props: any) {
                             <path d="M14 3.458c1.32 .354 2.558 .902 3.685 1.612"/>
                         </svg>
                         <span className={"ml-2 min-w-max"}>
-                    Move around to discover the universe
+                    Move around to discover our universe
                 </span>
                     </div>
                 }

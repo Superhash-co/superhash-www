@@ -22,10 +22,11 @@ export default function work() {
                 <title>About - Superhash</title>
             </Head>
                
-            <div className={"flex flex-col items-center text-center"}>
-                <h3>
+            <div className={"text-center flex flex-col gap-8"}>
+                <h2>Past Works</h2>
+                <p>
                     Some of the most prestigious companies Superhash and its members had the pleasure to work with
-                </h3>
+                </p>
                 <div className={"max-w-[448px] w-full flex flex-col divide-y divide-white divide-opacity-[0.16] items-center justify-items-center border border-white border-opacity-[0.16] rounded-[16px] mt-12 overflow-hidden"}>
                     <div className={"flex divide-x divide-white divide-opacity-[0.16] w-full items-center justify-center w-full h-1/4"}>
                         <Image priority unoptimized className={"w-1/3 p-5 justify-self-center self-center hover:bg-white hover:bg-opacity-[0.08] cursor-pointer transition-all ease-in-out duration-300"} src={work2} alt={"work 2"}/>

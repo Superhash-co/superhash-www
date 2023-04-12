@@ -38,14 +38,14 @@ const navItems: MenuItemProps[] = [
     {
         label: "Blog",
         isExternal: true,
-        link: "https://google.hu",
+        link: "https://medium.com/superhash",
         bg: "radial-gradient(circle, rgb(129 180 250) 0%, rgb(0, 128, 255) 50%)",
         position: new Vector2(2.185390122350354, 0.51223)
     },
     {
         label: "Careers",
         isExternal: true,
-        link: "https://google.com",
+        link: "https://linkedin.com/company/superhash",
         bg: "radial-gradient(circle, rgb(129 180 250) 0%, rgb(0, 128, 255) 50%)",
         position: new Vector2(1.6900118403979274, 2.4420858914535675)
     },

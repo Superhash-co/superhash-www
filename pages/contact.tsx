@@ -12,12 +12,12 @@ export default function About() {
                 <title>Get in touch - Superhash</title>
             </Head>
             <div className={"flex flex-col items-center gap-8 md:gap-12"}>
-                <h2 className={"px-1"}>Let&apos;s explore the<br/>next universe<br/>together.</h2>
+                <h2 className={"px-1"}>Let&apos;s explore<br/>working together.</h2>
 
                 <Button href={"mailto:hello@superhash.com"}>hello@superhash.co</Button>
                 <div className={"md:hidden flex gap-3"}>
 
-                    <Link target={"_blank"} href={"https://linkedin.com"}
+                    <Link target={"_blank"} href={"https://linkedin.com/company/superhash"}
                           className={`group flex rounded-full backdrop-blur-xl items-center justify-between px-4 py-2 text-md cursor-pointer hover:bg-white hover:bg-opacity-[0.16] h-[52px]`}
                           style={{ backgroundColor: "rgba(255, 255, 255, 0.20)"}}
                     >
@@ -25,7 +25,7 @@ export default function About() {
                             <LinkedinIcon/>
                         </div>
                     </Link>
-                    <Link target={"_blank"} href={"https://medium.com"}
+                    <Link target={"_blank"} href={"https://medium.com/superhash"}
                           className={"group flex rounded-full backdrop-blur-xl items-center justify-between px-4 py-2 text-md cursor-pointer hover:bg-white hover:bg-opacity-[0.16] h-[52px]"}
                           style={{ backgroundColor: "rgba(255, 255, 255, 0.20)"}}
                     >

@@ -34,7 +34,7 @@ export default function Scene() {
 
     useFrame((state) => {
         // @ts-ignore
-        state.camera.aspect = window.innerWidth / window.innerHeight
+        state.camera.aspect = (window.innerWidth > window.innerHeight ? window.innerHeight : window.innerWidth) / window.innerHeight
         // @ts-ignore
         state.camera.fov = 45 / ((state.camera.aspect + 1) / 2)
 

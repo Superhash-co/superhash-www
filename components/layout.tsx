@@ -69,7 +69,8 @@ export default function Layout(props: any) {
     }, []);
     return (<>
             <Head>
-                <meta name="description" content="Superhash website"/>
+                <meta name="description" content="Superhash specializes in multiplayer gaming and web3 backends and infrastructures, offering resilient and highly scalable solutions."/>
+                <meta property="og:image" content={context.assetPrefix+"/sh-og.png"}/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="icon" type="image/svg+xml" href={context.assetPrefix+"/favicon.svg"}/>
                 <link rel="icon" type="image/png" href={context.assetPrefix+"/favicon.png"}/>
@@ -109,7 +110,13 @@ export default function Layout(props: any) {
                     </div>
                 </SimpleBar>
 
-                {!context.isPageOpen &&
+                <div className={`md:flex fixed transition-all duration-300 ease-in-out ${context.isPageOpen?"hidden bottom-0 opacity-0":"bottom-[100px] opacity-100"}  left-1/2 -translate-x-1/2 items-center flex-initial shrink-0 w-full justify-center flex-nowrap`}><span
+                    className={"ml-2 min-w-max flex justify-center"}><a className={"flex justify-center"}
+                    href={context.assetPrefix+"/superhash-gc2023.pdf"}><img
+                    src={context.assetPrefix+"/sh-promo-cover.png"} width={"19px"}
+                    />&nbsp;Get our intro brochure</a></span></div>
+
+                {/*!context.isPageOpen &&
                     <div
                         className={`hidden md:flex fixed transition-all duration-300 ease-in-out ${alreadyClicked?"bottom-0 opacity-0":"bottom-[24px]  opacity-100"} left-1/2 -translate-x-1/2 items-center flex-initial shrink-0 w-full justify-center flex-nowrap`}>
                         <svg className={"hidden md:block"} width="13" height="18" viewBox="0 0 13 18" fill="none"
@@ -121,6 +128,7 @@ export default function Layout(props: any) {
                                 d="M6.5 4.20833C6.84518 4.20833 7.125 4.48816 7.125 4.83333V8.16667C7.125 8.51185 6.84518 8.79167 6.5 8.79167C6.15482 8.79167 5.875 8.51185 5.875 8.16667V4.83333C5.875 4.48816 6.15482 4.20833 6.5 4.20833Z"
                                 fill="white"/>
                         </svg>
+
                         <svg className={"md:hidden"} xmlns="http://www.w3.org/2000/svg" height="18"
                              width="18" viewBox="0 0 24 24" stroke="currentColor" fill="none"
                         >
@@ -134,10 +142,10 @@ export default function Layout(props: any) {
                             <path d="M14 3.458c1.32 .354 2.558 .902 3.685 1.612"/>
                         </svg>
                         <span className={"ml-2 min-w-max"}>
-                    Move around to discover our universe
-                </span>
+                            Move around to discover our universe
+                        </span>
                     </div>
-                }
+                */}
 
                 <div className={"absolute overflow-hidden"}>
                     <div

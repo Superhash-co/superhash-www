@@ -70,7 +70,7 @@ export default function Layout(props: any) {
     return (<>
             <Head>
                 <meta name="description" content="Superhash specializes in multiplayer gaming and web3 backends and infrastructures, offering resilient and highly scalable solutions."/>
-                <meta property="og:image" content={context.assetPrefix+"/sh-og.png"}/>
+                <meta property="og:image" content={context.assetPrefix+"/sh-og-image.png"}/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="icon" type="image/svg+xml" href={context.assetPrefix+"/favicon.svg"}/>
                 <link rel="icon" type="image/png" href={context.assetPrefix+"/favicon.png"}/>

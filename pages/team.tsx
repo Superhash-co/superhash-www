@@ -41,7 +41,7 @@ export default function Team() {
                         <Image priority src={avatar7} alt={"Avatar 7"}/>
                         <Image priority src={avatar8} alt={"Avatar 8"}/>
                         <Image priority src={avatar9} alt={"Avatar 9"}/>
-                        <Image priority src={avatar10} alt={"Avatar 10"}/>
+                        {/* <Image priority src={avatar10} alt={"Avatar 10"}/> */}
                         <Image priority src={avatar11} alt={"Avatar 11"}/>
                         {/* <Image priority src={avatar12} alt={"Avatar 12"}/> */}
                         <Image priority src={avatar13} alt={"Avatar 13"}/>
